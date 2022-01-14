@@ -4,7 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/torish14/yarn-jest.git",
   "author": "torish14 <nanamin.104@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn -s run jest"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js"]
+  },
   "devDependencies": {
     "jest": "^27.4.7"
   }
